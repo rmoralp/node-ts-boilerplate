@@ -51,7 +51,7 @@ npm install
 [eslint]: https://github.com/eslint/eslint
 [gh-actions]: https://github.com/features/actions
 [gha-ci]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml
-[nodejs]: https://nodejs.org/dist/latest-v14.x/docs/api/
+[nodejs]: https://nodejs.org/dist/latest-v16.x/docs/api/
 [prettier]: https://prettier.io
 [typescript-4-8]: https://devblogs.microsoft.com/typescript/announcing-typescript-4-8/
 [typescript]: https://www.typescriptlang.org/

@@ -8,6 +8,7 @@
 - [TypeScript][typescript] [4.8][typescript-4-8]
 - [ESLint][eslint] with some initial rules recommendation
 - [Prettier][prettier] to enforce consistent code style
+- [Vitest][vitest] for testing
 - NPM [scripts](#available-scripts) for common operations
 - Example configuration for [GitHub Actions][gh-actions]
 
@@ -38,10 +39,12 @@ npm install
 - `build` - Transpile TypeScript to ES6
 - `dev` - Interactive watch mode to automatically transpile source files
 - `lint` - Lint source files and tests
+- `lint:fix` - Lint source files and tests and fix issues
 - `phoenix` - Clean install dependencies
 - `prettier` - Reformat files
 - `start` - Run the built app
-- `test` - Run tests
+- `test` - Run tests once
+- `test:watch` - Run tests but watch for changes and rerun when they change
 
 
 [gha-badge]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml/badge.svg
@@ -56,3 +59,4 @@ npm install
 [typescript-4-8]: https://devblogs.microsoft.com/typescript/announcing-typescript-4-8/
 [typescript]: https://www.typescriptlang.org/
 [template-action]: https://github.com/rmoralp/node-ts-boilerplate/generate
+[vitest]: https://vitest.dev/

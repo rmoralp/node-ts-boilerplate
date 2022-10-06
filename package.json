@@ -9,10 +9,12 @@
     "build": "etsc",
     "dev": "nodemon",
     "lint": "eslint . --ext .ts --ext .mts",
+    "lint:fix": "npm run lint -- --fix",
     "phoenix": "rm -rf ./node_modules && rm -f ./package-lock.json && npm install --no-audit --no-fund",
     "prettier": "prettier --config .prettierrc --write .",
     "start": "node dist",
-    "test": ""
+    "test": "vitest run",
+    "test:watch": "vitest watch"
   },
   "author": "",
   "license": "",
@@ -27,6 +29,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "nodemon": "2.0.20",
     "prettier": "2.7.1",
-    "typescript": "4.8.4"
+    "typescript": "4.8.4",
+    "vitest": "0.23.4"
   }
 }

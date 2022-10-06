@@ -1,2 +1,8 @@
+# Dependencies
 node_modules
+
+# Transpiled files
 dist
+
+# Root config files
+vitest.config.ts

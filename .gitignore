@@ -6,8 +6,9 @@ npm-debug.log*
 # Dependencies
 node_modules
 
-# Coverage
+# Testing and Coverage
 coverage
+__snapshots__
 
 # Transpiled files
 dist

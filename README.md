@@ -17,17 +17,19 @@
 
 This project is intended to be used with the latest Active LTS release of [Node.js][nodejs].
 
-### Use as a repository template
+### Start new project
 
-To start, just click the **[Use template][repo-template-action]** link (or the green button).
+#### Use as a repository template
 
-### Clone repository
+To start, just click the **[Use template][template-action]** link or the green button.
+
+#### Clone repository
 
 To clone the repository, use the following commands:
 
 ```sh
-git clone https://github.com/jsynowiec/node-typescript-boilerplate
-cd node-typescript-boilerplate
+git clone https://github.com/rmoralp/node-ts-boilerplate
+cd node-ts-boilerplate
 npm install
 ```
 
@@ -38,8 +40,8 @@ npm install
 - `lint` - Lint source files and tests
 - `phoenix` - Clean install dependencies
 - `prettier` - Reformat files
-- `test` - Run tests
 - `start` - Run the built app
+- `test` - Run tests
 
 
 [gha-badge]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml/badge.svg
@@ -53,3 +55,4 @@ npm install
 [prettier]: https://prettier.io
 [typescript-4-8]: https://devblogs.microsoft.com/typescript/announcing-typescript-4-8/
 [typescript]: https://www.typescriptlang.org/
+[template-action]: https://github.com/rmoralp/node-ts-boilerplate/generate
